@@ -12,6 +12,8 @@
   "devDependencies": {
     "chalk": "^4.1.1",
     "lerna": "^4.0.0",
+    "rollup": "^2.53.1",
+    "ts-node": "^10.1.0",
     "yorkie": "^2.0.0"
   },
   "workspaces": [
