@@ -1,0 +1,35 @@
+{
+  "name": "@nextbox/core",
+  "version": "0.0.1",
+  "description": "nextbox core lib.",
+  "keywords": [
+    "headless",
+    "vue3",
+    "vue",
+    "ui"
+  ],
+  "author": "WumaCoder <1829913225@qq.com>",
+  "homepage": "https://github.com/nextboxjs/nextbox#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextboxjs/nextbox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/nextboxjs/nextbox/issues"
+  }
+}
