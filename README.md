@@ -1,11 +1,116 @@
 # nextbox
 a headless ui lib.
 
+## Comprise
+
+- nextbox
+  - core
+  - ui
+  - shared
+- template
+  - admin
+- book
+- cli
+
+## Theme Variable
+
+### Color
+
+**metric**
+
+- tint 相对于base的浅色
+
+- [base] 标准
+
+- shade 相对与base的深色
+
+**name**
+
+color.name.metric[.dark]
+
+| Name        | Description |
+| ----------- | ----------- |
+| primary     |             |
+| minor       |             |
+| info        |             |
+| success     |             |
+| warning     |             |
+| error       |             |
+| background  |             |
+| placeholder |             |
+| disabled    |             |
+| border      |             |
+| text        |             |
+| shadow      |             |
+|             |             |
+
+### Size
+
+**metric**
+
+- base
+
+- no
+- xs
+- sm
+- md
+- lg
+- xl
+
+**name**
+
+size.name.metric
+
+| Name          | Description |
+| ------------- | ----------- |
+| text          |             |
+| border        |             |
+| shadow        |             |
+| margin        |             |
+| padding       |             |
+| space         |             |
+| border-radius |             |
+|               |             |
+
+
+
 ## Components
 
 ### Basic 基本组件
 
 #### Button
+
+**core**
+
+```ts
+interface UseButtonProp{
+    
+}
+
+interface UseButtonReturn{
+    
+}
+
+interface ButtonCtx{
+    
+}
+```
+
+**ui**
+
+```ts
+interface ButtonProp{
+    
+}
+
+interface ButtonSlot{
+    
+}
+
+interface ButtonExpose{
+    
+}
+```
 
 #### Link
 
@@ -22,6 +127,8 @@ a headless ui lib.
 #### Ellipsis
 
 #### Collapse
+
+#### Typesetting
 
 
 
@@ -145,25 +252,25 @@ a headless ui lib.
 
 
 
-### Alert 弹出组件
+### Interactive Feedback  交互反馈组件
 
 #### Dialog
 
 #### Message
 
-#### Tooltip
+#### Notice
 
 #### Popover
 
-#### Notice
-
 #### Popup
+
+#### Result
 
 
 
 ### Navigation 导航组件
 
-#### Nav
+#### Navigation
 
 #### Menu
 
@@ -219,7 +326,15 @@ a headless ui lib.
 
 ### Charts 图表组件
 
-loading
+#### ECharts
+
+#### Line
+
+#### Bar
+
+#### Pie
+
+...
 
 
 
@@ -229,7 +344,22 @@ loading
 
 
 
+### Advanced 高级组件
+
+#### AdForm
+
+#### CRUD
+
+
+
+
+
 ## Global Hooks
 
 ### useTheme
 
+### useConfig
+
+### usePlatform
+
+### useVModel
