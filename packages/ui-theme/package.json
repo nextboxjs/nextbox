@@ -1,21 +1,14 @@
 {
-  "name": "@nextbox/core",
+  "name": "@nextbox/ui-theme",
   "version": "0.0.1",
-  "description": "nextbox core lib.",
-  "keywords": [
-    "headless",
-    "vue3",
-    "vue",
-    "ui"
-  ],
+  "description": "ui default theme",
   "author": "WumaCoder <1829913225@qq.com>",
   "homepage": "https://github.com/nextboxjs/nextbox#readme",
   "license": "MIT",
-  "main": "lib/nextbox-core.cjs.js",
-  "module": "lib/nextbox-core.esm.js",
+  "main": "index.js",
+  "module": "index.esm.js",
   "directories": {
-    "lib": "lib",
-    "test": "tests"
+    "lib": "lib"
   },
   "files": [
     "lib"
@@ -28,7 +21,7 @@
     "url": "git+https://github.com/nextboxjs/nextbox.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev": "postcss  -o ./style/index.css ./theme/index.scss"
   },
   "bugs": {
     "url": "https://github.com/nextboxjs/nextbox/issues"
