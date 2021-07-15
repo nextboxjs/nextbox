@@ -1,5 +1,7 @@
 <template>
-  <div>ButtonDemo</div>
+  <div>
+    <NButton></NButton>
+  </div>
 </template>
 
 <script lang="ts">
