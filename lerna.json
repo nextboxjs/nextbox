@@ -11,7 +11,8 @@
         "ignored-file",
         "*.md"
       ],
-      "message": "release: publish"
+      "message": "release: publish",
+      "registry": "https://registry.npmjs.org/"
     }
   }
 }
